@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartentrick mit Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Magische Karten</h1>
+    <p>Denk dir eine Zahl, wähle die Anzahl der Karten, klicke auf die Karten, auf denen deine Zahl vorkommt, und drücke "Berechnen".</p>
+    
+    <label for="num-cards">Anzahl der Karten:</label>
+    <input type="number" id="num-cards" value="5" min="1" max="10">
+    <button id="generate-btn">Karten generieren</button>
+
+    <div id="cards-container"></div>
+    <button id="calculate-btn">Berechnen</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
